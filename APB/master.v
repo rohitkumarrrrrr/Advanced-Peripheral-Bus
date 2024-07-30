@@ -1,15 +1,8 @@
 
-////////////////////////////////////////////////
-//
-// Name:   Shubhi Agrawal
-// Design: APB2 Protocol Master
-// Date:   13-06-2021
-//
-///////////////////////////////////////////////
 
 
 
-//`timescale 1ns/1ns
+
 
   module master_bridge(
 	input [8:0]apb_write_paddr,apb_read_paddr,
